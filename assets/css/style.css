@@ -1,0 +1,412 @@
+* {
+     margin: 0;
+     padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #316dc3;
+    padding: 15px 0;
+    
+}
+
+.header-text {
+    color:#fff;
+}
+
+.social-icons {
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.fa-whatsapp {
+    background-color: #81c873;
+}
+
+i {
+    font-size: 20px;
+}
+
+.social-icons>a {
+    margin-left: 15px;
+}
+
+.buttons>button>a {
+    color: #427900;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-text {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.menu>a {
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo>img {
+    max-height: 52px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding: 15px ;
+    margin-left: 76px;
+    margin-right: 57px;
+}
+
+.slider>.banner>img {
+    width: 100%;
+}
+
+.ticker {
+    background-color: #316dc3;
+    padding: 10px;
+    margin-left: 67px;
+    margin-right: 67px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.ticker>.ticker-text {
+    color: #fff;
+    text-align: center;
+}
+
+.introduction-main {
+    text-align: center;
+    padding:50px ;
+    margin-left: 8.33%;
+    margin-right:8.33% ;
+}
+
+.text {
+    padding: 10px;
+    line-height: 1.9;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.icon {
+    padding: 8px;
+    color: #467412;
+}
+
+.introduction {
+    background-color: #f7f8fa;
+}
+
+.customers-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px;
+    background-color: #2755e9;
+}
+
+.dasturkhan-heading-main {
+    color: #fff;
+    font-size:42px;
+    font-weight: 500;
+    padding: 10px;
+}
+.dasturkhan-sub-heading {
+    color:#fff;
+}
+
+.dasturkhan>img {
+    height:40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.dasturkhan {
+    text-align: center;
+}
+
+.dasturkhan-sub-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.month {
+    color: rgb(0, 255, 0);
+}
+
+.introduction-heading {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.services-main {
+    padding: 50px;
+    
+}
+
+
+
+.card-heading {
+    color: #316dc3;
+    font-weight: 600;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 60px;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 302px;
+}
+
+.services {
+    background-color: #f7f8fa;
+}
+
+.services-summary {
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+.thumbnail {
+    text-align: center;
+    justify-content: center;
+}
+
+.card-content {
+    
+    padding: 1.4em;
+    text-align: center;
+}
+
+.main-icon {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.headings-text {
+    padding: 10px;
+}
+
+.menu>.active {
+    background: #316DC3;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 16px;
+}
+
+.upcoming-events {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 125px;
+}
+
+
+
+    a:hover, a:focus {
+        color: #595959;
+        text-decoration: none;
+}
+
+.menu>.nav-buttons:hover {
+    background: #316DC3;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 16px;
+}
+
+
+
+
+.items
+ {
+    margin: 10px 26px 0px 0px;
+    text-align: left;
+    display: block;
+    background-color: #f7f8fa;
+    width: 280px;
+    height: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    border: #edefee 0.5px solid;
+    
+}
+
+#mission-upcoming {
+    font-family: 'Merriweather', serif;
+    margin-right: 100px;
+    padding-right: 38px;
+    display: block;
+}
+
+#events {
+    font-family: 'Merriweather', serif;
+    color: #306ec3;
+    margin-right: 250px;
+    margin-left: 125px;
+    margin-top: 25px;
+    margin-bottom: -160px;
+}
+
+#forboxes {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 125px;
+}
+
+.group-boxes {
+    margin-right: 25px;
+}
+
+.events {
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+
+
+#side-event {
+    overflow: hidden;
+    position: relative;
+    bottom: 79px;
+    display: inline;
+    left: 55em;
+}
+
+.event-text {
+    height: 180px;
+    margin-top: 2px;
+    width: 280px;
+    z-index: 0;
+    color:#4d3232;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#introduction {
+    text-align: center;
+}
+
+#intro {
+    color: #306ec3;
+    display: inline;
+    font-family: 'Merriweather', serif;
+}
+
+#duction {
+    color: #467412;
+    display: inline;
+    font-family: 'Merriweather', serif;
+}
+
+#collection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 80px 0px 80px;
+}
+
+#collection> img {
+    width: 253px;
+    height: 160px;
+    border: #2755e9 5px solid;
+    margin: auto 3px;
+}
+
+footer {
+    margin-top: 7em;
+    padding: 4em;
+    background: #24272e;
+    color: white;
+}
+
+footer>div {
+    display: inline-block;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#contact>li {
+    text-decoration: none;
+    display: block;
+}
+
+#useful {
+    position: relative;
+    bottom: 174px;
+    padding: 20px;
+}
+
+#connect {
+    position: relative;
+    bottom: 145px;
+}
+
+h5 {
+    font-size: 1.25rem;
+  
+}
+
+#contact>li>i {
+    color: darkgreen;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    padding: 7px;
+}
+
+.connect-btn {
+    color: #5eaade;
+    background-color: white;
+    border-color: #5eaade;
+    padding: 0.1em 0.4em;
+    border-radius: 6em;
+    border-width: 3px;
+    margin-top: 10px;
+}
+
+small {
+    background-color: #306dd8;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+
